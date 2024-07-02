@@ -1,0 +1,38 @@
+body{
+    background-image:radial-gradient(ellipse at top,rgb(255, 251, 0),rgb(255, 0, 0),rgb(153, 0, 241));
+background-repeat: ;
+background-size: cover;
+}
+
+table{
+margin: auto;
+}
+img{
+float: left;
+width: 500px;
+height: 350px;
+border-radius:50% 5% 50% 0px;
+border-top-left-radius:50% 5% ;
+}
+.zero{
+border-radius: 50% 50% 0% 50%;
+}
+.one{
+border-radius:50% 50% 50% 0% ;
+
+}
+.two{
+     border-radius: 50% 0% 50% 50%;
+}
+.three{
+  border-radius:0% 50% 50% 50% ;
+}
+/* div{
+/* width: 300px;
+height: 150px;
+display: inline-block;
+border: radius 50% 5px ;
+grid-template-columns: repeat(2, 1fr);
+align-items: center;
+justify-content: last baseline;
+*/

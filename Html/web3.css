@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(2,113,247);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+}
+logo img{
+  background-color: rgb(2,113,247);
+}
+span{
+    font-size: x-large;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+ul{
+    display: flex;
+    margin:4px;
+
+}
+li{
+    list-style-type:none;
+    padding: 0px 10px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    margin: 6px;
+    color: white;
+}
+input,button{
+    border: none;
+}
+input{
+    background-color: burlywood;
+    outline:none;
+}
+button{
+    background-color: #f4526a;
+    color: white;
+    height: 100%;
+    border-radius: 4px;
+}
+button:active{
+    scale:0.94;
+}
+buttton:hover{
+    box-shadow: 0 0 15px red, 0 0 20px red;
+}
+button div{
+    width: fit-content;
+    border-radius: 20px;
+    padding-left: 5%;
+    height: 30px;
+}
